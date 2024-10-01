@@ -5,11 +5,11 @@ import seaborn as sns
 
 @st.cache
 def load_data():
-    customers = pd.read_csv('Data/customers_dataset.csv')
-    orders = pd.read_csv('Data/orders_dataset.csv')
-    order_items = pd.read_csv('Data/order_items_dataset.csv')
-    order_payments = pd.read_csv('Data/order_payments_dataset.csv')
-    products = pd.read_csv('Data/products_dataset.csv')
+    customers = pd.read_csv('C:/Bangkit/Submission/Data/customers_dataset.csv')
+    orders = pd.read_csv('C:/Bangkit/Submission/Data/orders_dataset.csv')
+    order_items = pd.read_csv('C:/Bangkit/Submission/Data/order_items_dataset.csv')
+    order_payments = pd.read_csv('C:/Bangkit/Submission/Data/order_payments_dataset.csv')
+    products = pd.read_csv('C:/Bangkit/Submission/Data/products_dataset.csv')
     return customers, orders, order_items, order_payments, products
 
 customers, orders, order_items, order_payments, products = load_data()
